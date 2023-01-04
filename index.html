@@ -8,6 +8,8 @@
   </head>
   <body>
     <h1>SIRモデル</h1>
+    <h3>福岡大学 工学部 電子情報工学科</h3>
+    <h3>ネットワークシステム 第２回レポート課題「SIRモデル」</h3>
     <div class="big-model">
       <div class="short-model">
         <canvas id="lineChart"></canvas>
@@ -45,7 +47,6 @@
         data.infected.push(infected);
         data.recovered.push(recovered);
       }
-
       const ctx = document.getElementById("lineChart").getContext("2d");
       // グラフを描画
       const chart = new Chart(ctx, {
